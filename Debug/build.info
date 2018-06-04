@@ -1,0 +1,9 @@
+#Build information
+#Thu May 31 10:32:48 UTC 2018
+project-path=/projects/test
+toolchain=LLVM-4.0
+architecture=i386
+config=Debug
+type=app
+profile=Mobile
+profile-version=4.0
