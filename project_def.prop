@@ -1,9 +1,9 @@
-APPNAME = test
+APPNAME = tizenapp
 
 type = app
 profile = mobile-4.0
 
-USER_SRCS = src/test.c
+USER_SRCS = src/tizenapp.c
 USER_DEFS =
 USER_INC_DIRS = inc
 USER_OBJS =

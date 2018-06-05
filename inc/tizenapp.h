@@ -1,5 +1,5 @@
-#ifndef __test_H__
-#define __test_H__
+#ifndef __tizenapp_H__
+#define __tizenapp_H__
 
 #include <app.h>
 #include <Elementary.h>
@@ -10,10 +10,10 @@
 #ifdef  LOG_TAG
 #undef  LOG_TAG
 #endif
-#define LOG_TAG "test"
+#define LOG_TAG "tizenapp"
 
 #if !defined(PACKAGE)
-#define PACKAGE "org.example.test"
+#define PACKAGE "org.example.tizenapp"
 #endif
 
-#endif /* __test_H__ */
+#endif /* __tizenapp_H__ */

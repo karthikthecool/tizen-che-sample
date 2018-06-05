@@ -1,4 +1,4 @@
-#include "test.h"
+#include "tizenapp.h"
 
 typedef struct appdata {
 	Evas_Object *win;
