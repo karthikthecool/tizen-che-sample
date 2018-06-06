@@ -14,19 +14,21 @@
  * limitations under the License.
  */
 
-#if !defined(_TIZENAPP_H_)
-#define _TIZENAPP_H_
+#if !defined(_VIEW_H)
+#define _VIEW_H
 
-#include <app.h>
-#include <dlog.h>
+#include <Elementary.h>
+#include <efl_extension.h>
 
-#if !defined(PACKAGE)
-#define PACKAGE "org.example.tizenapp"
-#endif
-
-#ifdef  LOG_TAG
-#undef  LOG_TAG
-#endif
-#define LOG_TAG "tizenapp"
+/*
+ * Create a view
+ */
+Eina_Bool view_create(void);
+Evas_Object *view_create_win(const char *pkg_name);
+Evas_Object *view_create_layout_for_win(Evas_Object *win, const char *file_path, const char *group_name);
+void view_destroy(void);
+void view_set_rotary_event_callback(Evas_Object *obj, Eext_Rotary_Event_Cb rotary_cb, void *user_data);
+void view_update_time_display(int start_value, int current_value);
+void view_end_elapsing(void);
 
 #endif

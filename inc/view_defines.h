@@ -14,19 +14,24 @@
  * limitations under the License.
  */
 
-#if !defined(_TIZENAPP_H_)
-#define _TIZENAPP_H_
+#if !defined(VIEW_DEFINES_H_)
+#define VIEW_DEFINES_H_
 
-#include <app.h>
-#include <dlog.h>
+#define GRP_RUN "grp_run"
+#define GRP_SETUP "grp_setup"
 
-#if !defined(PACKAGE)
-#define PACKAGE "org.example.tizenapp"
-#endif
+#define PART_HOUR "hour"
+#define PART_MINUTE "minute"
+#define PART_SECOND "second"
 
-#ifdef  LOG_TAG
-#undef  LOG_TAG
-#endif
-#define LOG_TAG "tizenapp"
+#define SIGNAL_PART_SELECTED "part,selected"
+#define SIGNAL_RESET_TIMER "reset,timer"
+#define SIGNAL_SET_TIMER "set,timer"
+#define SIGNAL_VIEW_CHANGE "view,change"
+
+#define MSG_ID_SET_HOUR 1
+#define MSG_ID_SET_MINUTE 2
+#define MSG_ID_SET_SECOND 3
+#define MSG_ID_DOT_ANGLE 4
 
 #endif

@@ -14,19 +14,17 @@
  * limitations under the License.
  */
 
-#if !defined(_TIZENAPP_H_)
-#define _TIZENAPP_H_
+#if !defined(_DATA_H)
+#define _DATA_H
 
-#include <app.h>
-#include <dlog.h>
+typedef void (*Time_Elapse_Tick_Cb)(int start_time, int current_time);
+typedef void (*Time_Elapse_End_Cb)(void);
 
-#if !defined(PACKAGE)
-#define PACKAGE "org.example.tizenapp"
-#endif
-
-#ifdef  LOG_TAG
-#undef  LOG_TAG
-#endif
-#define LOG_TAG "tizenapp"
+void data_initialize(Time_Elapse_Tick_Cb time_elapse_tick_cb, Time_Elapse_End_Cb time_elapse_end_cb);
+void data_finalize(void);
+void data_set_time(unsigned hour, unsigned min, unsigned sec);
+void data_run(void);
+void data_stop(void);
+void data_pause(void);
 
 #endif
