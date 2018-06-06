@@ -32,7 +32,7 @@
 								</option>
 								<option id="sbi.gnu.cpp.compiler.option.frameworks_inc.core.1395160493" superClass="sbi.gnu.cpp.compiler.option.frameworks_inc.core" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/libxml2&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;/home/user/tizen-studio/library&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/test/Tizen-Studio/tizen-studio-docker/library&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appcore-agent&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appfw&quot;"/>
@@ -151,7 +151,7 @@
 								</option>
 								<option id="sbi.gnu.c.compiler.option.frameworks_inc.core.1795177369" superClass="sbi.gnu.c.compiler.option.frameworks_inc.core" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/libxml2&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;/home/user/tizen-studio/library&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/test/Tizen-Studio/tizen-studio-docker/library&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appcore-agent&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appfw&quot;"/>
@@ -508,7 +508,7 @@
 								</option>
 								<option id="sbi.gnu.cpp.compiler.option.frameworks_inc.core.1334366520" superClass="sbi.gnu.cpp.compiler.option.frameworks_inc.core" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/libxml2&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;/home/user/tizen-studio/library&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/test/Tizen-Studio/tizen-studio-docker/library&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appcore-agent&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appfw&quot;"/>
@@ -624,7 +624,7 @@
 								</option>
 								<option id="sbi.gnu.c.compiler.option.frameworks_inc.core.1091342970" superClass="sbi.gnu.c.compiler.option.frameworks_inc.core" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/libxml2&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;/home/user/tizen-studio/library&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/test/Tizen-Studio/tizen-studio-docker/library&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appcore-agent&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SBI_SYSROOT}/usr/include/appfw&quot;"/>
